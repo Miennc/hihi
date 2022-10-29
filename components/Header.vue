@@ -18,7 +18,9 @@
 
 
           <div class="px-2 cursor-pointer">TIN TỨC</div>
-          <div class="px-2 cursor-pointer">lIÊN HỆ</div>
+          <NuxtLink to="/contact">
+            <div class="px-2 cursor-pointer">lIÊN HỆ</div>
+          </NuxtLink>
           <div class="px-2 cursor-pointer">TIỆN ÍCH</div>
           <div class="px-2 cursor-pointer">QUẢNG CÁO</div>
         </div>

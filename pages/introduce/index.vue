@@ -7,7 +7,7 @@
       <img src="~@/assets/images/introduce/banner.png" alt="" class="w-full h-auto xl:h-[33.125rem] object-cover">
     </div>
 
-    <div class="flex justify-center items-center md:mt-[52%] mt-[66%] ">
+    <div class="flex justify-center items-center md:mt-[52%] mt-[66%]  2xl:mt-[45%]">
       <div class=" text-[#000000] font-[500] md:text-[40px] text-[25px] border-b-2 border-b-[#165AAD] ">
         VỀ CHÚNG TÔI
       </div>
