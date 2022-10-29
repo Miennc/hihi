@@ -1,7 +1,7 @@
 <template>
 
   <div class="container   mx-auto">
-
+   <Header/>
 
     <div class="absolute left-0 top-[6rem]  right-0 ">
       <img src="~@/assets/images/introduce/banner.png" alt="" class="w-full h-auto xl:h-[33.125rem] object-cover">
@@ -235,6 +235,20 @@ import imgContent3 from '~/assets/images/introduce/imgcontent3.png'
 
 export default {
   name: "Introduce",
+  head() {
+    return {
+      title: 'giới thiệu',
+      meta: [
+        {
+          hid: 'description',
+          name: 'introduce',
+          content: 'giới thiệu'
+        }
+      ],
+    }
+  },
+
+
   data() {
     return {
       banner: banner,

@@ -1,7 +1,7 @@
 <template>
 
   <div class="container   mx-auto">
-
+    <Header/>
 
     <div class="absolute left-0 top-[6rem]  right-0 ">
       <img :src="banner" alt="" class="w-full h-auto xl:h-[33.125rem] object-cover">
@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <div class="grid md:grid-cols-3 grid-cols-1 md:px-0 px-5 gap-10 my-10">
+    <div class="grid md:grid-cols-3 grid-cols-1 md:px-0 md:mx-5 px-5 gap-10 my-10">
       <div class="col-span-1 box ">
         <div class="py-14">
           <div class="flex justify-between items-center  flex-col">
@@ -109,11 +109,12 @@
           <input type="text" placeholder="Nội dung" class=" p-3 w-full border-input outline-none"> <br>
         </div>
 
-       <div class="flex  mt-5 md:mt-0 justify-center items-center ">
-         <div class="w-[160px] h-[47px] font-[500] text-[20px] text-[#165AAD] cursor-pointer bg-[#FFFFFF] bd flex justify-center items-center">
-           ĐĂNG KÝ
-         </div>
-       </div>
+        <div class="flex  mt-5 md:mt-0 justify-center items-center ">
+          <div
+            class="w-[160px] h-[47px] font-[500] text-[20px] text-[#165AAD] cursor-pointer bg-[#FFFFFF] bd flex justify-center items-center">
+            ĐĂNG KÝ
+          </div>
+        </div>
       </div>
 
       <div class="col-span-1  flex justify-center w-full  h-[324px] overflow-hidden">
@@ -129,9 +130,22 @@
 
 <script>
 import banner from '~/assets/images/contact/banner.png'
+import Header from "@/components/Header";
 
 export default {
   name: "index",
+  head() {
+    return {
+      title: 'Liên hệ',
+      meta: [
+        {
+          hid: 'description',
+          name: 'introduce',
+          content: 'Liên hệ'
+        }
+      ],
+    }
+  },
   data() {
     return {
       banner: banner
@@ -149,6 +163,7 @@ export default {
 .border-input {
   border-bottom: 1px solid #787878
 }
+
 .bd {
   border: 2px solid #165AAD;
 }

@@ -2,7 +2,7 @@
   <div class="bg-[#165AAD]  md:px-[6rem] absolute left-0 right-0 top-0 shadow-box ">
     <div class="md:p-10 my-5 grid md:grid-cols-5 grid-cols-1 gap-5">
       <div class="col-span-1 flex justify-start flex-col items-center">
-        <div class="text-[#FFFFFF]  font-[500] text-[24px]">
+        <div class="text-[#FFFFFF]  font-[500] text-[20px]">
           VMT JSC
         </div>
         <div class="text-[#FFFFFF] font-[400] text-[14px] mt-2">
@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="col-span-1 flex justify-start flex-col items-center">
-        <div class="text-[#FFFFFF] font-[500] text-[24px]">
+        <div class="text-[#FFFFFF] font-[500] text-[20px]">
           SẢN PHẨM CHÍNH
         </div>
         <div class="text-[#FFFFFF] font-[400] text-[14px] mt-2">
@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="col-span-1    flex justify-start flex-col items-center">
-        <div class="text-[#FFFFFF] font-[500] text-[24px]">
+        <div class="text-[#FFFFFF] font-[500] text-[20px]">
           SOCIAL MEDIA
         </div>
         <div class="mt-3">
@@ -50,7 +50,7 @@
         </div>
       </div>
       <div class="col-span-1 flex justify-start flex-col items-center">
-        <div class="text-[#FFFFFF] font-[500] text-[24px]">
+        <div class="text-[#FFFFFF] font-[500] text-[20px]">
           CONTACT
         </div>
         <div class="text-[#FFFFFF] font-[400] text-[14px] mt-2">

@@ -8,7 +8,7 @@
     </div>
 
     <div class="flex justify-center flex-col items-center">
-      <div class=" text-[#000000] font-[500] md:text-[40px] text-[25px] mt-3  ">
+      <div class=" text-[#000000] font-[500] md:text-[35px] text-[25px] mt-3  ">
         SẢN PHẨM CỦA CHÚNG TÔI
       </div>
       <div class="border-b-2 border-b-[#165AAD] w-[160px] mb-3">
@@ -47,7 +47,7 @@
     <div class="bg-[#165AAD]  absolute left-0 right-0 ">
       <div class="p-10 ">
         <div
-          class="flex justify-center  items-center text-[#FFFFFF] font-[600] text-[22px] mb-5 md:mb-0 md:text-[40px] ">
+          class="flex justify-center  items-center text-[#FFFFFF] font-[600] text-[22px] mb-2  md:text-[30px] ">
           LIÊN HỆ VỚI CHÚNG TÔI
         </div>
 
@@ -94,9 +94,9 @@
             est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           </div>
         </div>
-        <div class="col-span-1">
+        <div class="col-span-1 w-full overflow-hidden">
           <div>
-            <img :src="imgContent1" alt="ảnh nội dung sản phẩm">
+            <img :src="imgContent1" alt="ảnh nội dung sản phẩm"  class="w-full h-full object-cover">
           </div>
         </div>
 
@@ -106,9 +106,9 @@
 
 
 
-      <div class=" md:px-[10rem] grid md:grid-cols-4  grid-cols-1 mb-[5rem] ">
+      <div class=" md:px-[6rem] grid md:grid-cols-4  grid-cols-1 mb-[5rem] ">
         <div class="col-span-1 box-shadow mx-5 flex flex-col justify-center items-center">
-          <div class="my-5">
+          <div class="my-5 md:p-7">
             <div class="text-[#000000] text-center font-[500] text-[20px] md:text-[24px] ">
               NỘI DUNG 1
             </div>
@@ -123,7 +123,7 @@
         </div>
 
         <div class="col-span-1 my-10 md:my-0 box-shadow mx-5 flex flex-col justify-center items-center">
-          <div class="my-5">
+          <div class="my-5 md:p-7">
             <div class="text-[#000000] text-center font-[500] text-[20px] md:text-[24px] ">
               NỘI DUNG 1
             </div>
@@ -139,7 +139,7 @@
 
 
         <div class="col-span-1 box-shadow mx-5 flex flex-col justify-center items-center">
-          <div class="my-5">
+          <div class="my-5 md:p-7">
             <div class="text-[#000000] text-center font-[500] text-[20px] md:text-[24px] ">
               NỘI DUNG 1
             </div>
@@ -154,7 +154,7 @@
         </div>
 
         <div class="col-span-1 md:mt-0 mt-10 box-shadow mx-5 flex flex-col justify-center items-center">
-          <div class="my-5">
+          <div class="my-5 md:p-7">
             <div class="text-[#000000] text-center font-[500] text-[20px] md:text-[24px] ">
               NỘI DUNG 1
             </div>
