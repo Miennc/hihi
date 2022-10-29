@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto h-screen">
-    <!--    <Header/>-->
+  <div class="container mx-auto ">
+        <Header/>
     <div class="flex justify-center items-center mt-[7rem]">
       <div class=" text-[#000000] font-[500] md:text-[40px] text-[30px] border-b-2 border-b-[#165AAD] ">
         TIN TỨC
@@ -17,30 +17,32 @@
     </div>
 
 
-    <div class="grid md:grid-cols-2 mb-[5rem] grid-cols-1 mx-[4rem] mt-5 gap-5">
-      <div class="col-span-1">
-        <div>
-          <img :src="imgContent1" alt="ảnh nội dung sản phẩm">
-        </div>
-      </div>
+   <div class="px-5 md:px-[4rem]">
+     <div class="grid md:grid-cols-2 mb-[5rem] grid-cols-1  mt-5 gap-5">
+       <div class="col-span-1">
+         <div>
+           <img :src="imgContent1" alt="ảnh nội dung sản phẩm">
+         </div>
+       </div>
 
-      <div class="flex flex-col  justify-around col-span-1 justify-center items-center">
-        <div class="text-[#000000] font-[500] md:text-[32px] text-[20px]">
-          BẢO HIỂM HẠNH PHÚC
-        </div>
-        <div class="text-[#165AAD] font-[400] md:text-[24px] text-[18px]">
-          1 HỢP ĐỒNG 2 GIÁ TRỊ - BẢO HIỂM BỆNH TẬT VÀ TAI NẠN
-        </div>
+       <div class="flex flex-col  justify-around col-span-1 justify-center items-center">
+         <div class="text-[#000000] font-[500] md:text-[32px] text-[20px]">
+           BẢO HIỂM HẠNH PHÚC
+         </div>
+         <div class="text-[#165AAD] font-[400] md:text-[24px] text-[18px]">
+           1 HỢP ĐỒNG 2 GIÁ TRỊ - BẢO HIỂM BỆNH TẬT VÀ TAI NẠN
+         </div>
 
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-        </div>
-      </div>
-    </div>
+         <div>
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+           est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+         </div>
+       </div>
+     </div>
+   </div>
 
     <div class="bg-[#165AAD]  absolute left-0 right-0 ">
       <div class="p-10 ">
@@ -73,93 +75,103 @@
     </div>
 
 
-    <div class="grid md:grid-cols-2 mt-[40rem] mb-[5rem] grid-cols-1 mx-[4rem] mt-5 gap-5">
+    <div class="px-5 md:px-[4rem]">
+      <div class="grid md:grid-cols-2 mt-[40rem] mb-[5rem] grid-cols-1  mt-5 gap-5">
 
-      <div class="flex flex-col  justify-around col-span-1 justify-center items-center">
-        <div class="text-[#000000] font-[500]  md:text-[32px] text-[20px] ">
-          BẢO HIỂM HẠNH PHÚC
-        </div>
-        <div class="text-[#165AAD] font-[400] md:text-[24px] text-[18px]">
-          1 HỢP ĐỒNG 2 GIÁ TRỊ - BẢO HIỂM BỆNH TẬT VÀ TAI NẠN
-        </div>
-
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-        </div>
-      </div>
-      <div class="col-span-1">
-        <div>
-          <img :src="imgContent1" alt="ảnh nội dung sản phẩm">
-        </div>
-      </div>
-
-
-    </div>
-
-
-    <div>
-      <div class=" md:px-[10rem] grid md:grid-cols-4 grid-cols-1 mb-[5rem]">
-        <div class="col-span-1  flex flex-col justify-center items-center">
-          <div class="text-[#000000] font-[500] text-[20px] md:text-[24px] ">
-            NỘI DUNG 1
+        <div class="flex flex-col  justify-around col-span-1 justify-center items-center">
+          <div class="text-[#000000] font-[500]  md:text-[32px] text-[20px] ">
+            BẢO HIỂM HẠNH PHÚC
           </div>
-          <br>
+          <div class="text-[#165AAD] font-[400] md:text-[24px] text-[18px]">
+            1 HỢP ĐỒNG 2 GIÁ TRỊ - BẢO HIỂM BỆNH TẬT VÀ TAI NẠN
+          </div>
+
           <div>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor s. <br>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor sit amet. <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           </div>
         </div>
-        <div class="col-span-1 my-3 flex flex-col justify-center items-center">
-          <div class="text-[#000000] font-[500] text-[20px] md:text-[24px] ">
-            NỘI DUNG 1
-          </div>
-          <br>
+        <div class="col-span-1">
           <div>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor s. <br>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor sit amet. <br>
+            <img :src="imgContent1" alt="ảnh nội dung sản phẩm">
           </div>
         </div>
-        <div class="col-span-1 md:mb-0  mb-3 flex flex-col justify-center items-center">
-          <div class="text-[#000000] font-[500] text-[20px] md:text-[24px] ">
-            NỘI DUNG 1
-          </div>
-          <br>
-          <div>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor s. <br>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor sit amet. <br>
-          </div>
-        </div>
-        <div class="col-span-1  flex flex-col justify-center items-center">
-          <div class="text-[#000000] font-[500] text-[20px] md:text-[24px] ">
-            NỘI DUNG 1
-          </div>
-          <br>
-          <div>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor s. <br>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor sit amet. <br>
-          </div>
-        </div>
+
+
       </div>
     </div>
 
 
-    <div class=" bg-red-500 absolute left-0 right-0 ">
+
+      <div class=" md:px-[10rem] grid md:grid-cols-4  grid-cols-1 mb-[5rem] ">
+        <div class="col-span-1 box-shadow mx-5 flex flex-col justify-center items-center">
+          <div class="my-5">
+            <div class="text-[#000000] text-center font-[500] text-[20px] md:text-[24px] ">
+              NỘI DUNG 1
+            </div>
+            <div class="text-center">
+              Lorem ipsum dolor sit amet. <br>
+              Lorem ipsum dolor s. <br>
+              Lorem ipsum dolor sit amet. <br>
+              Lorem ipsum dolor sit amet. <br>
+              Lorem ipsum dolor sit amet. <br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-span-1 my-10 md:my-0 box-shadow mx-5 flex flex-col justify-center items-center">
+          <div class="my-5">
+            <div class="text-[#000000] text-center font-[500] text-[20px] md:text-[24px] ">
+              NỘI DUNG 1
+            </div>
+            <div class="text-center">
+              Lorem ipsum dolor sit amet. <br>
+              Lorem ipsum dolor s. <br>
+              Lorem ipsum dolor sit amet. <br>
+              Lorem ipsum dolor sit amet. <br>
+              Lorem ipsum dolor sit amet. <br>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-span-1 box-shadow mx-5 flex flex-col justify-center items-center">
+          <div class="my-5">
+            <div class="text-[#000000] text-center font-[500] text-[20px] md:text-[24px] ">
+              NỘI DUNG 1
+            </div>
+            <div class="text-center">
+              Lorem ipsum dolor sit amet. <br>
+              Lorem ipsum dolor s. <br>
+              Lorem ipsum dolor sit amet. <br>
+              Lorem ipsum dolor sit amet. <br>
+              Lorem ipsum dolor sit amet. <br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-span-1 md:mt-0 mt-10 box-shadow mx-5 flex flex-col justify-center items-center">
+          <div class="my-5">
+            <div class="text-[#000000] text-center font-[500] text-[20px] md:text-[24px] ">
+              NỘI DUNG 1
+            </div>
+            <div class="text-center">
+              Lorem ipsum dolor sit amet. <br>
+              Lorem ipsum dolor s. <br>
+              Lorem ipsum dolor sit amet. <br>
+              Lorem ipsum dolor sit amet. <br>
+              Lorem ipsum dolor sit amet. <br>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    <div class="  absolute left-0 right-0 ">
       <Footer/>
     </div>
 
@@ -197,6 +209,7 @@ export default {
 .box-shadow {
   box-shadow: 0px 4px 20px 2px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  background: #FFFFFF;
 }
 
 .border-input {

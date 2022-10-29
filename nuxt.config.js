@@ -55,6 +55,6 @@ export default {
 
   css: [
     '@/assets/css/index.css',
-    '@/assets/css/main.css',
+    '@/assets/css/tailwind.css',
   ]
 }
