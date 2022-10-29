@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-[#165AAD] shadow-box ">
-    <div class="px-[3rem] grid grid-cols-5 gap-5">
+  <div class="bg-[#165AAD]  md:px-[6rem] absolute left-0 right-0 top-0 shadow-box ">
+    <div class="md:p-10 my-5 grid md:grid-cols-5 grid-cols-1 gap-5">
       <div class="col-span-1 flex justify-start flex-col items-center">
-        <div>
+        <div class="text-[#FFFFFF]  font-[500] text-[24px]">
           VMT JSC
         </div>
-        <div>
+        <div class="text-[#FFFFFF] font-[400] text-[14px] mt-2">
           Lorem ipsum dolor sit amet. <br>
           Lorem ipsum dolor s. <br>
           Lorem ipsum dolor sit amet. <br>
@@ -14,50 +14,51 @@
         </div>
       </div>
       <div class="col-span-1 flex justify-start flex-col items-center">
-        <div>
+        <div class="text-[#FFFFFF] font-[500] text-[24px]">
           SẢN PHẨM CHÍNH
         </div>
-        <div>
-          sản phẩm 1 <br>
-          sản phẩm 2 <br>
-          sản phẩm 3 <br>
-          sản phẩm 4 <br>
-          sản phẩm 5 <br>
+        <div class="text-[#FFFFFF] font-[400] text-[14px] mt-2">
+          Lorem ipsum dolor sit amet. <br>
+          Lorem ipsum dolor s. <br>
+          Lorem ipsum dolor sit amet. <br>
+          Lorem ipsum dolor sit amet. <br>
+          Lorem ipsum dolor sit amet. <br>
         </div>
       </div>
-      <div class="col-span-1 flex justify-start flex-col items-center">
+      <div class="col-span-1 mt-2 flex justify-start flex-col items-center">
         <div>
           <img src="~/assets/images/imgFooter.svg" alt="">
         </div>
       </div>
-      <div class="col-span-1  bg-red-600  flex justify-start flex-col items-center">
-        <div>
+      <div class="col-span-1    flex justify-start flex-col items-center">
+        <div class="text-[#FFFFFF] font-[500] text-[24px]">
           SOCIAL MEDIA
         </div>
-        <div>
-          <div class="flex   justify-around items-center">
+        <div class="mt-3">
+          <div class="flex w-[6rem]  justify-around items-center">
             <div><img src="~/assets/images/fa.svg" alt=""></div>
-            <div class="mx-2">Facebook</div>
+            <div class="text-[#FFFFFF]">Facebook</div>
           </div>
-          <div class="flex justify-around  items-center">
+          <div class="flex w-[6rem] my-2 justify-around  items-center">
             <div><img src="~/assets/images/lk.svg" alt=""></div>
-            <div class="mx-2">Linkedin</div>
+            <div class="mr-2 text-[#FFFFFF]">Linkedin</div>
           </div>
-          <div class="flex justify-around  items-center">
+          <div class="flex w-[6rem] justify-around  items-center">
             <div><img src="~/assets/images/tw.svg" alt=""></div>
-            <div class="mx-2">Twitter</div>
+            <div class=" mr-5 text-[#FFFFFF]">Twitter</div>
           </div>
         </div>
       </div>
       <div class="col-span-1 flex justify-start flex-col items-center">
-        <div>
+        <div class="text-[#FFFFFF] font-[500] text-[24px]">
           CONTACT
         </div>
-        <div>
-          109 Cầu Giấy, Hà Nội <br>
-          (+84) 0123 456 78 <br>
-          Fax: 949872893865 <br>
-          vmtjsc@example.com <br>
+        <div class="text-[#FFFFFF] font-[400] text-[14px] mt-2">
+          Lorem ipsum dolor sit amet. <br>
+          Lorem ipsum dolor s. <br>
+          Lorem ipsum dolor sit amet. <br>
+          Lorem ipsum dolor sit amet. <br>
+          Lorem ipsum dolor sit amet. <br>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto h-screen">
     <!--    <Header/>-->
     <div class="flex justify-center items-center mt-[7rem]">
       <div class=" text-[#000000] font-[500] md:text-[40px] text-[30px] border-b-2 border-b-[#165AAD] ">
@@ -25,10 +25,10 @@
       </div>
 
       <div class="flex flex-col  justify-around col-span-1 justify-center items-center">
-        <div class="text-[#000000] font-[500] md:text-[32px] text-[25px]">
+        <div class="text-[#000000] font-[500] md:text-[32px] text-[20px]">
           BẢO HIỂM HẠNH PHÚC
         </div>
-        <div class="text-[#165AAD] font-[400] text-[24px]">
+        <div class="text-[#165AAD] font-[400] md:text-[24px] text-[18px]">
           1 HỢP ĐỒNG 2 GIÁ TRỊ - BẢO HIỂM BỆNH TẬT VÀ TAI NẠN
         </div>
 
@@ -44,7 +44,8 @@
 
     <div class="bg-[#165AAD]  absolute left-0 right-0 ">
       <div class="p-10 ">
-        <div class="flex justify-center  items-center text-[#FFFFFF] font-[600] text-[25px] md:text-[40px] ">
+        <div
+          class="flex justify-center  items-center text-[#FFFFFF] font-[600] text-[22px] mb-5 md:mb-0 md:text-[40px] ">
           LIÊN HỆ VỚI CHÚNG TÔI
         </div>
 
@@ -60,7 +61,7 @@
 
             <div class="flex justify-center  items-center  ">
               <button
-                class="bg-[#165AAD]  mb-[3rem] mt-4 text-[#FFFFFF] font-[700] text-[20px] p-2 rounded-[20px] w-[200px] ">
+                class="bg-[#165AAD]  mb-[3rem] mt-4 text-[#FFFFFF] font-[700] md:text-[20px] text-[17px] p-2 rounded-[20px] w-[200px] ">
                 GỬI
               </button>
             </div>
@@ -75,10 +76,10 @@
     <div class="grid md:grid-cols-2 mt-[40rem] mb-[5rem] grid-cols-1 mx-[4rem] mt-5 gap-5">
 
       <div class="flex flex-col  justify-around col-span-1 justify-center items-center">
-        <div class="text-[#000000] font-[500] md:text-[32px] text-[25px]">
+        <div class="text-[#000000] font-[500]  md:text-[32px] text-[20px] ">
           BẢO HIỂM HẠNH PHÚC
         </div>
-        <div class="text-[#165AAD] font-[400] text-[24px]">
+        <div class="text-[#165AAD] font-[400] md:text-[24px] text-[18px]">
           1 HỢP ĐỒNG 2 GIÁ TRỊ - BẢO HIỂM BỆNH TẬT VÀ TAI NẠN
         </div>
 
@@ -101,9 +102,35 @@
 
 
     <div>
-      <div class=" px-[10rem] grid grid-cols-4">
+      <div class=" md:px-[10rem] grid md:grid-cols-4 grid-cols-1 mb-[5rem]">
         <div class="col-span-1  flex flex-col justify-center items-center">
-          <div class="text-[#000000]">
+          <div class="text-[#000000] font-[500] text-[20px] md:text-[24px] ">
+            NỘI DUNG 1
+          </div>
+          <br>
+          <div>
+            Lorem ipsum dolor sit amet. <br>
+            Lorem ipsum dolor s. <br>
+            Lorem ipsum dolor sit amet. <br>
+            Lorem ipsum dolor sit amet. <br>
+            Lorem ipsum dolor sit amet. <br>
+          </div>
+        </div>
+        <div class="col-span-1 my-3 flex flex-col justify-center items-center">
+          <div class="text-[#000000] font-[500] text-[20px] md:text-[24px] ">
+            NỘI DUNG 1
+          </div>
+          <br>
+          <div>
+            Lorem ipsum dolor sit amet. <br>
+            Lorem ipsum dolor s. <br>
+            Lorem ipsum dolor sit amet. <br>
+            Lorem ipsum dolor sit amet. <br>
+            Lorem ipsum dolor sit amet. <br>
+          </div>
+        </div>
+        <div class="col-span-1 md:mb-0  mb-3 flex flex-col justify-center items-center">
+          <div class="text-[#000000] font-[500] text-[20px] md:text-[24px] ">
             NỘI DUNG 1
           </div>
           <br>
@@ -116,33 +143,7 @@
           </div>
         </div>
         <div class="col-span-1  flex flex-col justify-center items-center">
-          <div>
-            NỘI DUNG 1
-          </div>
-          <br>
-          <div>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor s. <br>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor sit amet. <br>
-          </div>
-        </div>
-        <div class="col-span-1  flex flex-col justify-center items-center">
-          <div>
-            NỘI DUNG 1
-          </div>
-          <br>
-          <div>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor s. <br>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor sit amet. <br>
-            Lorem ipsum dolor sit amet. <br>
-          </div>
-        </div>
-        <div class="col-span-1  flex flex-col justify-center items-center">
-          <div>
+          <div class="text-[#000000] font-[500] text-[20px] md:text-[24px] ">
             NỘI DUNG 1
           </div>
           <br>
@@ -156,7 +157,12 @@
         </div>
       </div>
     </div>
-    <Footer/>
+
+
+    <div class=" bg-red-500 absolute left-0 right-0 ">
+      <Footer/>
+    </div>
+
   </div>
 </template>
 
@@ -167,9 +173,21 @@ import Footer from "@/components/Footer";
 
 export default {
   name: 'IndexPage',
+  head() {
+    return {
+      title: 'Bảo hiểm hành phúc',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Bảo hiểm hành phúc'
+        }
+      ],
+    }
+  },
   data() {
     return {
-      imgContent1: imgContent1
+      imgContent1: imgContent1,
     }
   },
 }
