@@ -2,10 +2,13 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Happy Insurance',
-
+    // using script tag
     htmlAttrs: {
       lang: 'en'
     },
+    script: [
+      {src: 'https://cdn.tailwindcss.com', body: true}
+    ],
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
@@ -14,10 +17,12 @@ export default {
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/icon.svg'},
-      {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'}
+      {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'},
+      {rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/daisyui@2.36.1/dist/full.css'},
+
     ]
   },
-
+  // using script tag in body
   // Global CSS: https://go.nuxtjs.dev/config-css
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [

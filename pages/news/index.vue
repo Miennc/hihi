@@ -28,8 +28,8 @@
     </div>
 
 
-    <div class="grid md:grid-cols-3 mt-[4rem] md:px-[5rem] gap-10 grid-cols-1 ">
-      <div class="col-span-2  bd">
+    <div class="grid relative     h-full md:grid-cols-3 mt-[4rem] md:px-[5rem] gap-10 grid-cols-1 ">
+      <div class="md:col-span-2 col-span-1   bd" v-for="(item,index) in 2" :key="index">
         <div>
           <img src="~@/assets/images/new/imgNew1.png" alt="" class="w-full h-full object-cover">
         </div>
@@ -73,7 +73,7 @@
           </div>
 
           <div
-            class="w-[120px] my-5 hover:bg-[#165AAD] h-[35px] border-2 border-[#165AAD] bg-white cursor-pointer flex justify-center items-center">
+            class="w-[120px] my-5 hover:text-white hover:bg-[#165AAD] h-[35px] border-2 border-[#165AAD] bg-white cursor-pointer flex justify-center items-center">
             Xem thêm
           </div>
 
@@ -81,62 +81,44 @@
         </div>
       </div>
 
-      <div class="col-span-1  ">
-        <div class="flex w-full ">
-          <div class="w-full">
-            <input type="text" placeholder="Tìm kiếm... " class="w-full outline-none border p-2 border-[#777777]">
-          </div>
-          <div class="w-[50px] bg-[#165AAA] flex justify-center items-center">
-            <i class="fa-solid fa-magnifying-glass text-white text-xl"></i>
-          </div>
-        </div>
 
-        <div class="mt-5 bg-[#FFFFFF]  bd">
-          <div class="p-2">
-            <div class="flex">
-              <div class=" text-[#000000] font-[500] md:text-[20px] text-[16px] border-b-2 border-b-[#165AAD] ">
-                Tin tức mới nhất
+      <div class="col-span-1  md:absolute md:top-0 md:right-[5%] md:left-[70%]    ">
+          <div class="flex w-full ">
+            <div class="w-full">
+              <input type="text" placeholder="Tìm kiếm... " class="w-full outline-none border p-2 border-[#777777]">
+            </div>
+            <div class="w-[50px] bg-[#165AAA] flex justify-center items-center">
+              <i class="fa-solid fa-magnifying-glass text-white text-xl"></i>
+            </div>
+          </div>
+
+          <div class="mt-5 bg-[#FFFFFF]  bd">
+            <div class="p-2">
+              <div class="flex">
+                <div class="  text-[#000000] font-[500] md:text-[20px] text-[16px] border-b-2 border-b-[#165AAD] ">
+                  Tin tức mới nhất
+                </div>
               </div>
             </div>
-          </div>
-          <div class="grid grid-cols-2 gap-5 px-2 place-content-stretch">
-            <div class="col-span-1 bg-blue-500 w-full h-full overflow-hidden">
-              <img src="~@/assets/images/new/imgNew2.png" alt="" class="w-full h-full object-fill">
-            </div>
-            <div class="col-span-1  w-full h-full overflow-hidden">
-              <div> Tin mới sáng ngày 22/10
+            <div v-for="(item,index) in 3" :key="index" class="grid grid-cols-2 mb-5 gap-5 px-2 place-content-stretch">
+              <div class="col-span-1 bg-blue-500 w-full h-full overflow-hidden">
+                <img src="~@/assets/images/new/imgNew2.png" alt="" class="w-full h-full object-fill">
               </div>
-              <div>Lorem ipsum dolor sit amet,</div>
-            </div>
-          </div>
-
-          <div class="grid my-5 grid-cols-2 gap-5 px-2 place-content-stretch">
-            <div class="col-span-1 bg-blue-500 w-full h-full overflow-hidden">
-              <img src="~@/assets/images/new/imgNew2.png" alt="" class="w-full h-full object-fill">
-            </div>
-            <div class="col-span-1  w-full h-full overflow-hidden">
-              <div> Tin mới sáng ngày 22/10
+              <div class="col-span-1   w-full h-full overflow-hidden">
+                <div class="font-[500] text-[15px] text-[#000000] "> Tin mới sáng ngày 22/10
+                </div>
+                <div>Lorem ipsum dolor sit amet,
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-              <div>Lorem ipsum dolor sit amet,</div>
             </div>
+
+
           </div>
-
-          <div class="grid grid-cols-2 mb-5 gap-5 px-2 place-content-stretch">
-            <div class="col-span-1  w-full h-full overflow-hidden">
-              <img src="~@/assets/images/new/imgNew2.png" alt="" class="w-full h-full object-fill">
-            </div>
-            <div class="col-span-1  w-full h-full overflow-hidden">
-              <div> Tin mới sáng ngày 22/10
-              </div>
-              <div>Lorem ipsum dolor sit amet,</div>
-            </div>
-          </div>
-
-
-        </div>
       </div>
-    </div>
 
+
+    </div>
 
 
   </div>

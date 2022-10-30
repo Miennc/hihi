@@ -1,14 +1,14 @@
 <template>
-  <div class="bg-[#FFFFFF]   shadow-box absolute top-0 right-0 left-0  ">
+  <div class="bg-[#FFFFFF]   shadow-box fixed z-[1000] top-0 right-0 left-0  ">
     <div class="  container md:block hidden mx-auto ">
-      <div class="grid grid-cols-12 p-3   px-[5rem]">
-        <div class="col-span-2  flex  items-center">
+      <div class="grid grid-cols-12 p-2   px-[5rem]">
+        <div class="col-span-3 justify-center  flex   items-center">
           <div>
             <img :src="logo" alt="">
           </div>
         </div>
 
-        <div class="col-span-7  flex font-[500] text-[#000000]  justify-center items-center">
+        <div class="col-span-9  flex font-[500] text-[#000000]  justify-center items-center">
           <NuxtLink to="/">
             <div @click="active(0)" :class="{active: active_el==0 }"
                  class="px-2 hover:text-[#165AAD]  cursor-pointer ">TRANG CHỦ
@@ -22,10 +22,12 @@
           </NuxtLink>
 
 
+        <NuxtLink to="/product">
           <div @click="active(2)" :class="{active: active_el==2 }" class="mx-2 hover:text-[#165AAD]  cursor-pointer">
             SẢN
             PHẨM
           </div>
+        </NuxtLink>
 
 
          <NuxtLink to="/news">
@@ -41,21 +43,6 @@
               lIÊN HỆ
             </div>
           </NuxtLink>
-          <div @click="active(5)" :class="{active: active_el==5 }" class="mx-2 hover:text-[#165AAD]  cursor-pointer">
-            TIỆN ÍCH
-          </div>
-          <div @click="active(6)" :class="{active: active_el==6 }" class="mx-2  hover:text-[#165AAD]  cursor-pointer">
-            QUẢNG CÁO
-          </div>
-        </div>
-        <div class="col-span-3 flex justify-end  items-center ">
-          <NuxtLink to="/login">
-            <button class=" bg-[#165AAD] px-4 py-2 text-white  rounded-md mr-2">Đăng nhập</button>
-          </NuxtLink>
-            <NuxtLink to="/register">
-              <button class=" bg-[#FFFFFF] hover:text-[#FFFFFF] hover:bg-[#165AAD] bd text-[#000000] px-4 py-2 rounded-md">Đăng ký</button>
-
-            </NuxtLink>
         </div>
 
       </div>
