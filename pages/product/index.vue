@@ -21,30 +21,60 @@
     </div>
 
 
-    <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
-      <div class="collapse-title text-xl font-medium">
-        Focus me to see content
-      </div>
-      <div class="collapse-content">
-        <p>tabindex="0" attribute is necessary to make the div focusable</p>
-      </div>
-    </div>
+    <div class="my-10">
+      <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 ">
+        <div class="collapse-title text-xl font-medium">
+          Thông tin chung
+        </div>
+        <div class="collapse-content">
+          <div>
+            <div class="text-[#165AAD] font-[400] text-[16px]">
+              Đối tượng được bảo hiểm:
+            </div>
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Đối tượng 1
+              Đối tượng 2
+              Đối tượng 3
+            </div>
 
-    <div tabindex="1" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
-      <div class="collapse-title text-xl font-medium">
-        Focus me to see content
+            <div class="text-[#165AAD] font-[400] text-[16px]">
+              Phạm vi bảo hiểm:
+            </div>
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, sit.
+            </div>
+            <div class="text-[#165AAD] font-[400] text-[16px]">
+              Các trường hợp bảo hiểm:
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="collapse-content">
-        <p>tabindex="0" attribute is necessary to make the div focusable</p>
-      </div>
-    </div>
 
-    <div tabindex="2" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
-      <div class="collapse-title text-xl font-medium">
-        Focus me to see content
+      <div tabindex="1" class="collapse collapse-plus border border-base-300 bg-base-100 ">
+        <div class="collapse-title text-xl font-medium">
+          Focus me to see content
+        </div>
+        <div class="collapse-content">
+          <p>tabindex="0" attribute is necessary to make the div focusable</p>
+        </div>
       </div>
-      <div class="collapse-content">
-        <p>tabindex="0" attribute is necessary to make the div focusable</p>
+
+      <div tabindex="2" class="collapse collapse-plus border border-base-300 bg-base-100 ">
+        <div class="collapse-title text-xl font-medium">
+          Focus me to see content
+        </div>
+        <div class="collapse-content">
+          <p>tabindex="0" attribute is necessary to make the div focusable</p>
+        </div>
+      </div>
+      <div tabindex="3" class="collapse collapse-plus border border-base-300 bg-base-100 ">
+        <div class="collapse-title text-xl font-medium">
+          Focus me to see content
+        </div>
+        <div class="collapse-content">
+          <p>tabindex="0" attribute is necessary to make the div focusable</p>
+        </div>
       </div>
     </div>
 
