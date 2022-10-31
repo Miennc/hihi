@@ -21,7 +21,7 @@
     </div>
 
 
-    <div class="my-10">
+    <div class="my-10 md:px-[5rem]">
       <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 ">
         <div class="collapse-title text-xl font-medium">
           Thông tin chung
@@ -32,7 +32,8 @@
               Đối tượng được bảo hiểm:
             </div>
             <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
               Đối tượng 1
               Đối tượng 2
               Đối tượng 3
@@ -79,16 +80,24 @@
     </div>
 
 
+    <div class="absolute right-0 left-0 ">
+      <Footer/>
+    </div>
 
   </div>
 </template>
 
 <script>
+
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default {
   name: "index",
-
+  components: {
+    Header,
+    Footer,
+  },
   head() {
     return {
       title: 'sản phẩm',

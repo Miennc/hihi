@@ -1,7 +1,7 @@
 <template>
 
-  <div class="container   mx-auto">
-   <Header/>
+  <div class="container    mx-auto">
+    <Header/>
 
     <div class="absolute left-0 top-[6rem]  right-0 ">
       <img src="~@/assets/images/introduce/banner.png" alt="" class="w-full h-auto xl:h-[33.125rem] object-cover">
@@ -218,7 +218,9 @@
       </div>
     </div>
 
-
+    <div class="absolute right-0 left-0 ">
+      <Footer/>
+    </div>
   </div>
 
 </template>

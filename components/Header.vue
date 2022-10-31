@@ -1,14 +1,14 @@
 <template>
   <div class="bg-[#FFFFFF]   shadow-box fixed z-[1000] top-0 right-0 left-0  ">
     <div class="  container md:block hidden mx-auto ">
-      <div class="grid grid-cols-12 p-2   px-[5rem]">
-        <div class="col-span-3 justify-center  flex   items-center">
+      <div class="flex justify-between p-2   px-[4rem]">
+        <div class="c justify-center  flex   items-center">
           <div>
             <img :src="logo" alt="">
           </div>
         </div>
 
-        <div class="col-span-9  flex font-[500] text-[#000000]  justify-center items-center">
+        <div class=" flex font-[500] text-[#000000]  justify-center items-center">
           <NuxtLink to="/">
             <div @click="active(0)" :class="{active: active_el==0 }"
                  class="px-2 hover:text-[#165AAD]  cursor-pointer ">TRANG CHỦ
@@ -58,8 +58,9 @@
           <i class="fa-solid fa-bars text-3xl cursor-pointer"></i>
         </div>
       </div>
-
     </div>
+
+
   </div>
 </template>
 

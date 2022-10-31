@@ -7,7 +7,7 @@ export default {
       lang: 'en'
     },
     script: [
-      {src: 'https://cdn.tailwindcss.com', body: true}
+      // {src: 'https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js', body: true}
     ],
     meta: [
       {charset: 'utf-8'},
@@ -19,7 +19,9 @@ export default {
       {rel: 'icon', type: 'image/x-icon', href: '/icon.svg'},
       {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'},
       {rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/daisyui@2.36.1/dist/full.css'},
-
+      // {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css'},
+      // {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap'},
+      // {rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css'}
     ]
   },
   // using script tag in body

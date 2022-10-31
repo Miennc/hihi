@@ -100,7 +100,7 @@
       </div>
     </div>
 
-    <div class="grid md:grid-cols-2 grid-cols-1 gap-10 px-5">
+    <div class="grid md:grid-cols-2 grid-cols-1 gap-10 px-5 mb-[5rem]">
       <div class="col-span-1 flex flex-col justify-between">
         <div>
           <input type="text " placeholder="Họ và Tên" class=" p-3 w-full border-input outline-none "> <br>
@@ -117,11 +117,16 @@
         </div>
       </div>
 
-      <div class="col-span-1  flex justify-center w-full  h-[324px] overflow-hidden">
+      <div class="col-span-1   flex justify-center w-full  h-[324px] overflow-hidden">
         <div>
           <img src="~@/assets/images/contact/map.png" alt="" class="w-full h-full object-cover">
         </div>
       </div>
+    </div>
+
+
+    <div class="absolute right-0 left-0 ">
+      <Footer/>
     </div>
 
   </div>
